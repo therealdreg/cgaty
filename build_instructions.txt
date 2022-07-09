@@ -1,0 +1,6 @@
+open cmd.exe
+
+C:\WINDDK\2600.1106\bin\setenv.bat C:\WINDDK\2600.1106 free
+cd C:\cgaty-master
+rd /s /q objfre_wxp_x86
+nmake -f makefile.def
